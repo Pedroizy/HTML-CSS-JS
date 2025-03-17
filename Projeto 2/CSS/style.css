@@ -37,6 +37,24 @@
     animation: clouds-animation 20s infinite linear;
 }
 
+#restart {
+    color: green;
+    text-decoration: none;
+    align-items: center;
+    font-size: 15px;
+}
+
+div button {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: 3px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
 @keyframes pipe-animation {
     from {
         right: -80px;
